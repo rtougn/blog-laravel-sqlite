@@ -1,0 +1,50 @@
+#content{
+	padding-top: 20px;
+	background-color: #f8f9fa;
+}
+#footer{
+	padding: 10px;
+	margin-top: 20px;
+	border-top: solid 1px #cdcdcd;
+}
+.article{
+	padding: 10px;
+}
+.article:nth-child(even){
+  background-color: #ffffff;
+}
+.image1{
+	width: 100%;
+	height: 250px;
+}
+.image2{
+	width: 100%;
+}
+
+.navigator ul {
+    float: left;
+}
+.navigator ul li {
+    float: left;
+    list-style: none;
+}
+.navigator ul li:hover .sub-nav {
+    display: block;
+}
+.sub-nav {
+    display: none;
+    position: absolute;
+    width: 150px;
+    z-index: 1;
+}
+.sub-nav li {
+    float: left;
+    width: 100%;
+}
+@media (max-width:991px)
+{
+	.sub-nav {
+    position: relative;
+    z-index: 0;
+	}
+}
